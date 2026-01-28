@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio </title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+        <nav>
+            <div class="logo">
+                <h4 style="font-size: 28px">Portfolio </h4>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a><hr></li>
+                <li><a href="#about">About</a><hr></li>
+                <li><a href="#projects">Projects</a><hr></li>
+                <li><a href="#contact">Contact</a><hr></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <!-- Home bar  -->
+     <section class="hero" id="home">
+        <div class="box">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Discover my projects and skills.</p>
+        </div>
+     </section>
+     <!-- About bar -->
+      <section class="about" id="about">
+        <div class="box">
+            <h3>Hello, I'm Venu</h3>
+                    <p>I'm a multidisciplinary designer and developer with a passion for creating intuitive and engaging digital experiences. With a background in both design and development, I bring a unique perspective to every project.</p>
+                    <p>My approach combines aesthetic sensibility with technical expertise to deliver solutions that are not only beautiful but also functional and user-friendly.</p>
+                    <p>When I'm not designing or coding, you can find me exploring new technologies, sketching in my notebook, or hiking in nature.</p>
+        </div>
+        <!-- Projects bar-->
+      <section class="projects" id="projects">
+      <div class="box">
+        
+        <h3>Projects</h3>
+            <p>Learn more about my background and experience.</p>
+      </div>
+    </section>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body{
+            background: #bde0fe;
+        }
+        header{
+            position: fixed;
+            width: 100%;
+            background: #bde0fe;
+        }
+        .container{
+            max-width: 1200px;
+            margin:0 20px;
+            padding:0 10px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        .nav-links{
+            list-style: none;
+            display: flex;
+        }
+        .nav-links li{
+            margin-left: 20px;
+            height:25px;
+        }
+        .nav-links a{
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        .nav-links li hr{
+            display:none;
+            margin:auto;
+            width: 25px;
+            border:none;
+            height: 1.5px;
+            background-color: #000;
+            transition: all 0.3s ease;
+        }
+        .nav-links li:hover hr{
+           display:block
+        }
+       
+        .nav-link:hover hr{
+            display:block;
+        }
+        .box{
+            height:450px;
+        }
+        .hero, .about, .projects{
+            justify-content: center;
+            text-align: center;
+            padding: 100px 20px;
+         
+        }
+        .hero img{
+            width: 250px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .hero h1{
+            font-size: 60px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .hero p{
+            font-size: 20px;
+            color: #666;
+        }
+        .about h1{
+            font-size:60px
+        }
+        .about h3{
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .about p{
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: #666;
+        }
+       
+
+
+    </style>
+</body>
+
+</html>
