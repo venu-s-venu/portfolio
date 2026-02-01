@@ -69,12 +69,17 @@
             padding:120px 60px;
         }
         .hero button{
-            background: none;
+            background: var(--blue);
+            color: #fff;
             border:none;
             margin-top:15px;
             box-shadow: 0 0 10px #06d6a0;
-            padding: 5px 20px;
+            padding: 8px 16px;
             border-radius: 5px;
+        }
+        .hero button:hover{
+            background: #06d6a0;
+            color: #000;
         }
          .about, .projects{
             justify-content: center;
@@ -104,7 +109,6 @@
             margin-bottom: 15px;
             color: #666;
         }
-<<<<<<< HEAD
         .project{
             display: flex;
             justify-content: space-between;
@@ -141,7 +145,3 @@
                     text-decoration: none;
                     color:var(--text);
                 }
-       
-=======
-       
->>>>>>> 8fc4b728e6343f81316047b7a2bcd525cf3ccf63
