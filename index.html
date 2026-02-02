@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<head> 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio </title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-</head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
 
 <body>
     <header>
@@ -20,7 +20,7 @@
                     <input type="text" placeholder=" Search">
                 </div>
                 <ul class="nav-links">
-                    <li><a href="#home">Home</a>
+                    <li><a href="#home" path="/Home">Home</a>
                         <hr>
                     </li>
                     <li><a href="#about">About</a>
@@ -34,7 +34,7 @@
                     </li>
                 </ul>
                 <div class="theme">
-                    <button onclick="toggleDarkMode()">Dark Mode </button>
+                    <button onclick="DarkMode()">Dark Mode </button>
                 </div>
             </nav>
         </div>
@@ -44,17 +44,27 @@
         <div class="box">
             <h1>Welcome to My Portfolio</h1>
             <p>Discover my projects and skills.</p>
-            <button onclick="openModal()">Profile</button>
-            </div>
+            <button onclick="openModal()">Information</button>
+        </div>
 
-            <div class="modal" id="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal()">&times;</span>
-    <h2>My Info</h2>
-    <p>Name: Venu</p>
-    <p>Course: BCA</p>
-  </div>
-</div>
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <div class="left-side">
+                    <img src="pic.jpg" alt="pic">
+                </div>
+                <div class="right-side">
+                    <h2>My Info</h2>
+                
+                <pre> Name              :                   Venu S</pre>
+                <pre> Course             :                   BCA</pre>
+                <pre> Father              :                   Srinivasa R</pre>
+                <pre> Mobile No.      :                   8197898395</pre>
+                <pre> Gmail               :                   venusvenu374@gmail.com</pre>
+                <pre> For more details <a href="#contact" onclick="closeModal()">Contact</a></pre>
+                </div>  
+            </div>
+        </div>
 
     </section1>
     <!-- About bar -->
