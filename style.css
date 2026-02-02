@@ -1,5 +1,4 @@
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-<<<<<<< HEAD
 
     * {
         margin: 0;
@@ -311,7 +310,6 @@
     svg {
         fill: var(--card-color);
     }
-=======
         *{
             margin: 0;
             padding: 0;
@@ -458,4 +456,3 @@
                     text-decoration: none;
                     color:var(--text);
                 }
->>>>>>> 34087341c5642f6d29f004d65b8a49263f2fc559
