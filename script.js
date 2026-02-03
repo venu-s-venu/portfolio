@@ -1,5 +1,5 @@
 function DarkMode() {
-  document.body.classList.toggle("dark-mode");
+  document.body.classList.toggle("dark-mode"); 
 }
 function openModal() {
     document.getElementById("modal").style.display = "flex";
