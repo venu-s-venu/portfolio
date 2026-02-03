@@ -14,6 +14,7 @@
         --muted: #6c757d;
         --primary: #615fff;
         --card-bg: #f8f9fa;
+        --card-color:#ffffff;
         --hr: #000000;
     }
 
@@ -23,7 +24,7 @@
         --muted: #ced4da;
         --primary: #615fff;
         --card-bg: #212529;
-        --card-color: #000000;
+        --card-color: #ffffff;
         --hr: #ffffff;
     }
 
@@ -34,7 +35,6 @@
     }
 
     body {
-
         background-color: var(--bg);
         color: var(--text);
         margin: 0;
@@ -155,6 +155,7 @@
 
     .projects {
         justify-content: center;
+        align-items: center;
         text-align: center;
         padding: 100px 20px;
     }
